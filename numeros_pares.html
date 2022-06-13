@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,6 @@
 </head>
 <body>
     <script>
-
         function pulaLinha() {
             document.write("<br>");
             document.write("<br>");
@@ -18,21 +17,14 @@
             document.write(frase);
             pulaLinha();
         }
-        
-        var limite = parseInt(prompt("Escreva o ano Limite"));
 
-        var anoCopa = 1930;
+        var numero = 2;
 
-        while(anoCopa <= limite) {
-
-            mostra("Teve copa em " + anoCopa);
-            anoCopa = anoCopa + 4;
-            
-
+        while(numero <= 100) {
+            mostra( numero);
+            numero = numero + 2;
         }
-
-        mostra('FIM')
-
+        
     </script>
 </body>
 </html>
